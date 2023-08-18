@@ -488,7 +488,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "global power" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
@@ -540,7 +540,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "global power battery" (at 0 0 0)
+      (property "ki_keywords" "power-flag battery" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"+BATT\"" (at 0 0 0)
@@ -592,7 +592,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "global power" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
@@ -632,7 +632,7 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "flag power" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
@@ -1386,7 +1386,7 @@
   (symbol (lib_id "power:+5V") (at 142.24 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44f22969-29b4-4361-b7a3-7e2350581e3e)
-    (property "Reference" "#PWR0108" (at 146.05 49.53 0)
+    (property "Reference" "#PWR?" (at 146.05 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 137.16 49.53 90)
@@ -1402,7 +1402,7 @@
     (instances
       (project "PC104_ISA_8bits"
         (path "/b26d10c1-0874-459a-80a4-e525262e670c"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1417,7 +1417,7 @@
     (property "Value" "Bus_ISA_8bit" (at 171.45 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x32_P2.54mm_Vertical" (at 172.72 130.81 0)
+    (property "Footprint" "Conn_ISA_8bits:PinSocket_2x32_P2.54mm_Vertical_TopBottom" (at 172.72 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" (at 171.45 134.62 0)
@@ -1574,7 +1574,7 @@
   (symbol (lib_id "power:+5V") (at 142.24 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ae7d2d7-0909-440f-9b0d-938d2086cb7e)
-    (property "Reference" "#PWR0113" (at 146.05 115.57 0)
+    (property "Reference" "#PWR?" (at 146.05 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 137.16 115.57 90)
@@ -1590,7 +1590,7 @@
     (instances
       (project "PC104_ISA_8bits"
         (path "/b26d10c1-0874-459a-80a4-e525262e670c"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1599,7 +1599,7 @@
   (symbol (lib_id "power:GND") (at 148.59 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ebca870-1f09-4a40-b055-49aa522ad42d)
-    (property "Reference" "#PWR0112" (at 148.59 127 0)
+    (property "Reference" "#PWR?" (at 148.59 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 123.19 0)
@@ -1615,7 +1615,7 @@
     (instances
       (project "PC104_ISA_8bits"
         (path "/b26d10c1-0874-459a-80a4-e525262e670c"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1624,7 +1624,7 @@
   (symbol (lib_id "power:GND") (at 148.59 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73166b6b-7581-4ef5-adc1-a1c5bb4abeb8)
-    (property "Reference" "#PWR0103" (at 148.59 35.56 0)
+    (property "Reference" "#PWR?" (at 148.59 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 36.83 0)
@@ -1640,7 +1640,7 @@
     (instances
       (project "PC104_ISA_8bits"
         (path "/b26d10c1-0874-459a-80a4-e525262e670c"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1849,7 +1849,7 @@
   (symbol (lib_id "power:GND") (at 194.31 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e72f35dd-133f-4979-8fc6-ceeb13b6031b)
-    (property "Reference" "#PWR0107" (at 194.31 35.56 0)
+    (property "Reference" "#PWR?" (at 194.31 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 36.83 0)
@@ -1865,7 +1865,7 @@
     (instances
       (project "PC104_ISA_8bits"
         (path "/b26d10c1-0874-459a-80a4-e525262e670c"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

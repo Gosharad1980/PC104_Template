@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "librecube_pcb_template")(type "Legacy")(uri "${KIPRJMOD}/librecube_pcb_template.lib")(options "")(descr "")(disabled))
+  (lib (name "librecube_pcb_template-cache")(type "Legacy")(uri "${KIPRJMOD}/librecube_pcb_template-cache.lib")(options "")(descr "")(disabled))
+)

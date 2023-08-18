@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "librecube_pcb_template")(type "KiCad")(uri "${KIPRJMOD}/librecube_pcb_template.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library_PCI_CAN_Express")(type "KiCad")(uri "${KIPRJMOD}/Library_PCI_CAN_Express.pretty")(options "")(descr ""))
+)

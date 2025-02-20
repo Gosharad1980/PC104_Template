@@ -1,0 +1,15 @@
+3327600652190
+Conn_ISA_8bits
+PinHeader_2x32_P2.54mm_Vertical_TopBottom
+Through hole straight pin header, 2x32, 2.54mm pitch, double rows
+Through hole pin header THT 2x32 2.54mm double row
+0
+64
+64
+Conn_ISA_8bits
+PinSocket_2x32_P2.54mm_Vertical_TopBottom
+Through hole straight socket strip, 2x32, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x32 2.54mm double row
+0
+64
+64

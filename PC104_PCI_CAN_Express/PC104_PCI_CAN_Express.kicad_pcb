@@ -3211,6 +3211,16 @@
 		(layer "Edge.Cuts")
 		(uuid "7b8dc604-65ea-4fe7-ba6e-c544094b150a")
 	)
+	(gr_line
+		(start 112.395 45.72)
+		(end 112.395 132.08)
+		(stroke
+			(width 0.15)
+			(type dash_dot_dot)
+		)
+		(layer "User.1")
+		(uuid "41446209-e2da-48fb-a56f-ba22c64b2627")
+	)
 	(gr_text "GND"
 		(at 125.73 64.77 0)
 		(layer "F.SilkS")
@@ -3689,42 +3699,6 @@
 				(thickness 0.15)
 			)
 			(justify right)
-		)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "58abde6d-fb8a-4567-a976-ee8bcd614a8b")
-		(pts
-			(xy 112.395 52.07) (xy 112.395 86.36)
-		)
-		(height 15.875)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "34.2900 mm"
-			(at 95.37 69.215 90)
-			(layer "User.1")
-			(uuid "58abde6d-fb8a-4567-a976-ee8bcd614a8b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 	)
 	(dimension
